@@ -1,5 +1,5 @@
 #include<iostream>
-#include "Employe.h"
+#include "../header/Employe.h"
 using namespace std ;
 void Employe :: affiche ()const
 {

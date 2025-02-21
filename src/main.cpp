@@ -4,21 +4,21 @@
 #include "External_employe.h"
 #include "Client.h"
 #include "account_manag.h"
-#include"configuration.h"
+#include"../header/configuration.h"
 using namespace std;
 
 int main()
 {
 /*Employe S1 ("Ibrahim",13,"Technicien",1000);
-Employe S2 ("Chedi",13,"Ingénieur",1000);
+Employe S2 ("Chedi",13,"Ingï¿½nieur",1000);
 Client  C1 ("Moez",120,200);
 Client  C2 ("Bargaoui",60,100);
 Client  C3 ("Helen",134,4000);
 Client  C4 ("Yahya",1245,600);*/
 
 External_employe K;
-//account_manag P;
-read_data(K);//insertion de la data des employes
+account_manag P;
+read_data(K,P);//insertion de la data des employes
 K.affiche();
 cout<<"============"<<endl;
 //P.affiche();

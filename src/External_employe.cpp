@@ -1,6 +1,6 @@
 #include<iostream>
-#include "External_employe.h"
-#include "Employe.h"
+#include "../header/External_employe.h"
+#include "../header/Employe.h"
 #include <vector>
 
 using namespace std ;
@@ -28,7 +28,7 @@ for (unsigned i=0;i<tab1.size();++i){
     if (tab1[i]->get_name()==nom)
         {
         tab1.erase(tab1.begin()+ i);
-        cout << "le nom a ete effaçe avec succes"<<endl;
+        cout << "le nom a ete effaï¿½e avec succes"<<endl;
         }
 
 }

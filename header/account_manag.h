@@ -1,8 +1,8 @@
 #ifndef ACCOUNT_MANAG_H_INCLUDED
 #define ACCOUNT_MANAG_H_INCLUDED
 #include <vector>
-#include "Personne.h"
-#include "Client.h"
+#include "../header/Personne.h"
+#include "../header/Client.h"
 
 using namespace std ;
 class account_manag {
