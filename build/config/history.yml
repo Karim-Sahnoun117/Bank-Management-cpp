@@ -1,1 +1,64 @@
 build: Debug
+c:\C++_Project\Bank-Management-cpp\.git\objects\14\21d15226171907ecf78f0961ca8e9a93e0d18c:
+  time: 2025-02-21T10:31:30.752Z
+  files: []
+c:\C++_Project\Bank-Management-cpp\.git\objects\4c\1d7de48c24a42b1f47e555d82c14a9327d6a3c:
+  time: 2025-02-21T10:31:30.777Z
+  files: []
+c:\C++_Project\Bank-Management-cpp\src\Personne.cpp:
+  time: 2025-02-21T10:31:30.805Z
+  files:
+    - file: c:\C++_Project\Bank-Management-cpp\header\Personne.h
+      time: 2025-01-07T20:49:51.950Z
+c:\C++_Project\Bank-Management-cpp\src\Client.cpp:
+  time: 2025-02-21T10:31:30.828Z
+  files:
+    - file: c:\C++_Project\Bank-Management-cpp\header\Client.h
+      time: 2025-02-21T10:31:23.321Z
+c:\C++_Project\Bank-Management-cpp\src\main.cpp:
+  time: 2025-02-21T10:31:30.839Z
+  files:
+    - file: c:\C++_Project\Bank-Management-cpp\header\Employe.h
+      time: 2025-02-21T10:31:24.345Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\Personne.h
+      time: 2025-01-07T20:49:51.950Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\External_employe.h
+      time: 2025-02-21T10:31:25.191Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\Client.h
+      time: 2025-02-21T10:31:23.321Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\account_manag.h
+      time: 2025-02-21T10:16:05.881Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\configuration.h
+      time: 2025-02-21T10:31:21.465Z
+c:\C++_Project\Bank-Management-cpp\src\Employe.cpp:
+  time: 2025-02-21T10:31:30.858Z
+  files:
+    - file: c:\C++_Project\Bank-Management-cpp\header\Employe.h
+      time: 2025-02-21T10:31:24.345Z
+c:\C++_Project\Bank-Management-cpp\src\External_employe.cpp:
+  time: 2025-02-21T10:31:30.878Z
+  files:
+    - file: c:\C++_Project\Bank-Management-cpp\header\External_employe.h
+      time: 2025-02-21T10:31:25.191Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\Employe.h
+      time: 2025-02-21T10:31:24.345Z
+c:\C++_Project\Bank-Management-cpp\src\account_manag.cpp:
+  time: 2025-02-21T10:31:30.899Z
+  files:
+    - file: c:\C++_Project\Bank-Management-cpp\header\account_manag.h
+      time: 2025-02-21T10:16:05.881Z
+c:\C++_Project\Bank-Management-cpp\src\configuration.cpp:
+  time: 2025-02-21T10:31:30.919Z
+  files:
+    - file: c:\C++_Project\Bank-Management-cpp\header\Employe.h
+      time: 2025-02-21T10:31:24.345Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\Personne.h
+      time: 2025-01-07T20:49:51.950Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\External_employe.h
+      time: 2025-02-21T10:31:25.191Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\Client.h
+      time: 2025-02-21T10:31:23.321Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\account_manag.h
+      time: 2025-02-21T10:16:05.881Z
+    - file: c:\C++_Project\Bank-Management-cpp\header\configuration.h
+      time: 2025-02-21T10:31:21.465Z

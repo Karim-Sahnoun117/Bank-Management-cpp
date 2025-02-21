@@ -1,27 +1,28 @@
 #include <iostream>
-#include "Employe.h"
-#include "Personne.h"
-#include "External_employe.h"
-#include "Client.h"
-#include "account_manag.h"
-#include"configuration.h"
+#include "../header/Employe.h"
+#include "../header/Personne.h"
+#include "../header/External_employe.h"
+#include "../header/Client.h"
+#include "../header/account_manag.h"
+#include"../header/configuration.h"
 #include<fstream>
 using namespace std;
 
 
 
-void read_data(External_employe &obj_1,account_manag * obj_2 = nullptr)
+
+void read_data(External_employe &obj_1, account_manag & obj_2 )
 {
 
 ifstream fichier("config.txt");
-//initialisation des variables lié a la classe de declaration
+//initialisation des variables liï¿½ a la classe de declaration
 //Employe Ibrahim 13 Technicien 1000
 if (!fichier.is_open())
 {
     cerr<<"le fichier n'est pas ouvert"<<endl;
 }
-    //External_employe obj_1; //creation d'instance obj_1 pour gérer les employées
-    //account_manag obj_2; //creation d'instance obj_1 pour gérer les employées
+    //External_employe obj_1; //creation d'instance obj_1 pour gï¿½rer les employï¿½es
+    //account_manag obj_2; //creation d'instance obj_1 pour gï¿½rer les employï¿½es
 string type;
 string name;
 int ID;
@@ -42,7 +43,7 @@ while (fichier >> type)
       {
          fichier>>name>>ID>>account;
         Client f(name,ID,account);
-        obj_2->tab2.push_back(new Client(f));
+        obj_2.tab2.push_back(new Client(f));
       }
 
 

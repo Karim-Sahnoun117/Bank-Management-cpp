@@ -1,4 +1,4 @@
-#include "account_manag.h"
+#include "../header/account_manag.h"
 #include <vector>
 #include<iostream>
 
@@ -28,7 +28,7 @@ for (unsigned i=0; i<tab2.size();++i)
     if (tab2[i]->get_name()==_nom)
         {
         tab2.erase(tab2.begin()+ i);
-        cout <<"le client a eté effacé avec succes "<<endl;
+        cout <<"le client a etï¿½ effacï¿½ avec succes "<<endl;
         }
     }
 }

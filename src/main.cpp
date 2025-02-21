@@ -1,9 +1,9 @@
 #include <iostream>
-#include "Employe.h"
-#include "Personne.h"
-#include "External_employe.h"
-#include "Client.h"
-#include "account_manag.h"
+#include "../header/Employe.h"
+#include "../header/Personne.h"
+#include "../header/External_employe.h"
+#include "../header/Client.h"
+#include "../header/account_manag.h"
 #include"../header/configuration.h"
 using namespace std;
 
@@ -19,6 +19,7 @@ Client  C4 ("Yahya",1245,600);*/
 External_employe K;
 account_manag P;
 read_data(K,P);//insertion de la data des employes
+
 K.affiche();
 cout<<"============"<<endl;
 //P.affiche();
